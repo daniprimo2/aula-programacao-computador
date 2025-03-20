@@ -51,10 +51,11 @@ def calculoInversao():
 
 def calculoQuatroInversao():
      num = int(input("Digite um numero com quatro digitos: "))
-     d1 = num // 100
-     d2 = num % 100 // 10
-     d3 = num % 10
-     inverso = d3 * 100 + d2 * 10 + d1
+     d1 = num // 1000
+     d2 = num // 100
+     d3 = num % 100 // 10
+     d4 = num % 10
+     inverso = d4 * 1000 + d3 * 100 + d2 * 10 + d1
      print("O inverso do número digitando é ", inverso)
 
 
@@ -64,6 +65,7 @@ def infoSelecao():
 
 if __name__ == "__main__":
     calculoInversao()
+    calculoQuatroInversao()
 
 
 
