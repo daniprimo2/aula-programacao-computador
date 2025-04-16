@@ -5,6 +5,19 @@ print("      Tipo de Diaria            ")
 print("--------------------------------\n")
 
 print("[S] - Diária Simples.")
+
+
+
+
+
+
+
+
+
+
+
+
+
 print("[D] - Diária Duplox.")
 print("[T] - Diária Triplo.\n")
 
