@@ -8,7 +8,7 @@ op = int(input("1 - Soma\n2 - Subtração\nDigite uma opção: "))
 if op == 1:
     print(metodos.somaValores(a,b))
 elif op == 2:
-    print(metodos.sbtraiValores(a,b))
+    print(metodos.subtraiValores(a,b))
 else:
     print("Opção inválida")
 
